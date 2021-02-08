@@ -4,6 +4,7 @@ body{
 
 /* header */
 
+
 /* nav_bar_section */
 .nav_bar_section{
   margin: 20px 0;
@@ -18,6 +19,7 @@ body{
   width: 50%;
   height: 100%;
 }
+
 
 
 /* nav_bar_main */
@@ -44,7 +46,6 @@ body{
 .nav_bar_main li:last-child a{
   margin-right: 0;
 }
-
 /* /nav_bar_main */
 
 
@@ -74,7 +75,6 @@ body{
   display: inline-block;
   margin-left: 10px;
 }
-
 /* nav_bar_secondary */
 
 
@@ -84,9 +84,22 @@ body{
   background-color: transparent;
   line-height: 60px;
 }
-
 /* /hamburger */
 
 /* /nav_bar_section */
+
+
+/* hero_section */
+.main_title{
+  font-size: 100px;
+  font-weight: 700;
+  color:#000;
+}
+
+.hero_img{
+  width: 100%;
+}
+
+/* /hero_section */
 
 /* /header */
