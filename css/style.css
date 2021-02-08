@@ -197,6 +197,10 @@ body{
     font-size: 80px;
   }
 
+  .banner_box{
+    background-position: 30% 10%;
+  }
+
 }
 
 @media screen and (max-width:768px){
