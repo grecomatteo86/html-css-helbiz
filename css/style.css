@@ -1,0 +1,83 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* header */
+
+/* nav_bar_section */
+.nav_bar_section{
+  margin: 20px 0;
+  height: 60px;
+}
+
+.box_logo{
+  line-height: 60px;
+}
+
+.helbiz_logo{
+  width: 50%;
+  height: 100%;
+}
+
+
+
+/* nav_bar_main */
+
+.nav_bar_main, .nav_bar_secondary{
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.nav_bar_main li, .nav_bar_secondary li{
+  display: inline-block;
+}
+
+.nav_bar_main li{
+  text-transform: uppercase;
+}
+
+.nav_bar_main a{
+  color: #000;
+  font-size: 10px;
+  margin-right: 40px;
+}
+
+.nav_bar_main li:last-child a{
+  margin-right: 0;
+}
+
+/* /nav_bar_main */
+
+
+
+/* nav_bar_secondary */
+.nav_bar_secondary ul{
+  padding-left: 20px;
+}
+
+.nav_bar_secondary button{
+  font-size: 10px;
+  border: none;
+  background-color: transparent;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  padding-left: 10px;
+}
+
+.nav_bar_secondary .angle_down{
+  padding: 0 5px;
+}
+
+.nav_bar_secondary a{
+  color: #fff;
+  background-color: #000;
+  padding: 8px 20px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* nav_bar_secondary */
+
+/* /nav_bar_section */
+
+/* /header */
