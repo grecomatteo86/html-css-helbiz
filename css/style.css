@@ -251,6 +251,18 @@ body{
     font-size: 80px;
   }
 
+  .products_section .products_section_logo{
+    width: 30%;
+  }
+
+  .products_section .products_section_img{
+    width: 50%;
+  }
+
+  .products_section .custom_container .custom_container_box .moped{
+    max-width: 250px;
+  }
+
   .banner_box{
     background-position: 30% 10%;
   }
@@ -261,6 +273,14 @@ body{
 
   .main_title{
     font-size: 60px;
+  }
+
+  .products_section .products_section_logo{
+    width: 30%;
+  }
+
+  .products_section .products_section_img{
+    width: 50%;
   }
 
   .box{
