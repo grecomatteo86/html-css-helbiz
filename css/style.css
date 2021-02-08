@@ -7,13 +7,14 @@ body{
 
 /* nav_bar_section */
 .nav_bar_section{
-  margin: 20px 0;
+  padding: 20px 0;
   height: 60px;
   position: fixed;
   top:0;
   left: 0;
   width: 100%;
   z-index: 10;
+  background-color: #fff;
 }
 
 .box_logo{
@@ -108,10 +109,84 @@ body{
 .hero_img{
   width: 100%;
 }
-
 /* /hero_section */
 
 /* /header */
+
+
+
+/* main */
+
+/* banner_box */
+.banner_box{
+  background-image: url('../img/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  position: absolute;
+  width: 100%;
+}
+/* /banner_box */
+
+
+
+/* iphone_box */
+
+.iphone_box{
+  max-width: 800px;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.box{
+  display: inline-block;
+  width: calc((100% / 3) - 4px);
+  position: relative;
+}
+
+.box-1{
+  right: calc(100% / 3);
+  vertical-align: bottom;
+}
+
+.box-1 h2{
+  font-size: 30px;
+  font-weight: 700;
+  padding-right: 5px;
+  color: #000;
+}
+
+.box-2{
+  left: calc(100% / 3);
+}
+
+.box-3{
+  vertical-align: bottom;
+  padding-left: 30px;
+}
+
+.box-3 h3{
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.box-3 p{
+  color: #000;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.iphone{
+  width: 100%;
+  height: 100%;
+  max-width: 250px;
+}
+/* /iphone_box */
+
+
+/* /main */
 
 
 
@@ -129,6 +204,19 @@ body{
   .main_title{
     font-size: 60px;
   }
+
+  .box{
+    width: 100%;
+  }
+
+  .box-1{
+    right: auto;
+  }
+
+  .box-2{
+    left: auto;
+  }
+
 
 }
 /* /responsiveness */
