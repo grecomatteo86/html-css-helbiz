@@ -20,7 +20,6 @@ body{
 }
 
 
-
 /* nav_bar_main */
 
 .nav_bar_main, .nav_bar_secondary{
@@ -77,6 +76,16 @@ body{
 }
 
 /* nav_bar_secondary */
+
+
+/* hamburger */
+.hamburger_bars{
+  border: none;
+  background-color: transparent;
+  line-height: 60px;
+}
+
+/* /hamburger */
 
 /* /nav_bar_section */
 
