@@ -117,6 +117,58 @@ body{
 
 /* main */
 
+/* products_section */
+
+.custom_container{
+  background-color: rgb(250, 250, 250);
+  padding-bottom: 70px;
+  margin: 80px 0 60px 0;
+}
+
+.products_section img{
+  width: 80%;
+  height: 100%;
+}
+
+.products_section_logo{
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+.products_section p{
+  font-size: 20px;
+  padding: 10px;
+}
+
+.products_section a{
+  display: block;
+  font-size: 20px;
+  padding: 20px 0 60px 0;
+}
+
+.custom_container_box{
+  width: 100%;
+  height: 270px;
+  text-align: center;
+  display: inline-block;
+}
+
+.products_section_img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+/* /products_section */
+
+
+
+
+
+/* banner_section */
+
 /* banner_box */
 .banner_box{
   background-image: url('../img/banner.jpg');
@@ -184,6 +236,8 @@ body{
   max-width: 250px;
 }
 /* /iphone_box */
+
+/* /banner_section */
 
 
 /* /main */
