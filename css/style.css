@@ -9,6 +9,11 @@ body{
 .nav_bar_section{
   margin: 20px 0;
   height: 60px;
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
 }
 
 .box_logo{
@@ -90,6 +95,10 @@ body{
 
 
 /* hero_section */
+.hero_section{
+  margin-top: 100px;
+}
+
 .main_title{
   font-size: 100px;
   font-weight: 700;
@@ -103,3 +112,23 @@ body{
 /* /hero_section */
 
 /* /header */
+
+
+
+/* responsiveness */
+@media screen and (max-width:992px) {
+
+  .main_title{
+    font-size: 80px;
+  }
+
+}
+
+@media screen and (max-width:768px){
+
+  .main_title{
+    font-size: 60px;
+  }
+
+}
+/* /responsiveness */
